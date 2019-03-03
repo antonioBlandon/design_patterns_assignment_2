@@ -1,4 +1,4 @@
-package co.com.texteditor.modelo.Caracter1;
+package co.com.texteditor.modelo.Caracter;
 
 public class MyCharacter {
     public char representation;

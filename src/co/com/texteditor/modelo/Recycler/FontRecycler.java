@@ -8,7 +8,6 @@ public class FontRecycler extends PartRecycler<String> {
                 return fonts;
             }
         }
-        entries.add(entry);
-        return entry;
+        return addNew(entry);
     }
 }

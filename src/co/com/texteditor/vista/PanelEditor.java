@@ -1,7 +1,6 @@
 package co.com.texteditor.vista;
 
-import co.com.texteditor.modelo.Caracter;
-import co.com.texteditor.modelo.Caracter1.MyCharacter;
+import co.com.texteditor.modelo.Caracter.MyCharacter;
 
 import javax.swing.*;
 import javax.swing.text.BadLocationException;

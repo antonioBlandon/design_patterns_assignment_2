@@ -1,8 +1,7 @@
 package co.com.texteditor.vista;
 
-import co.com.texteditor.modelo.Caracter;
-import co.com.texteditor.modelo.Caracter1.Extras;
-import co.com.texteditor.modelo.Caracter1.MyCharacter;
+import co.com.texteditor.modelo.Caracter.Extras;
+import co.com.texteditor.modelo.Caracter.MyCharacter;
 import co.com.texteditor.modelo.ProcesadorTexto;
 
 import javax.swing.*;
@@ -57,7 +56,6 @@ public class ProcesadorTextoFrame extends JFrame {
 		String fuente = panelOpciones.getFuente().toString();
 		Color color = panelOpciones.getColor();
 		int tamanio = panelOpciones.getTamanio();
-		//Caracter caracter = new Caracter(c, fuente, color, tamanio);
 		MyCharacter myCharacter = new MyCharacter(c, new Extras(fuente, color, tamanio));
 		procesador.agregarCaracterADocumento(myCharacter);
 		panelEditor.refrescarEditor(myCharacter);

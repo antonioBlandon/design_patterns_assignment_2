@@ -1,22 +1,17 @@
 package co.com.texteditor.modelo;
 
-import co.com.texteditor.modelo.Caracter1.MyCharacter;
+import co.com.texteditor.modelo.Caracter.MyCharacter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Documento {
-	
-	//private List<Caracter> caracteres;
+
 	private List<MyCharacter> characters;
 
 	public Documento() {
-		characters = new ArrayList<MyCharacter>();
+		characters = new ArrayList<>();
 	}
-	
-	/*public void agregarCaracter(Caracter caracter) {
-		caracteres.add(caracter);
-	}*/
 
 	public void agregarCaracter(MyCharacter myCharacter) {
 		characters.add(myCharacter);

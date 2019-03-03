@@ -1,4 +1,4 @@
-package co.com.texteditor.modelo.Caracter1;
+package co.com.texteditor.modelo.Caracter;
 
 import java.awt.Color;
 
